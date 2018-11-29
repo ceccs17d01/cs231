@@ -1,3 +1,8 @@
+/*ABIN THOMAS
+S3 D 01 
+POSTFIX EVALUATION
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
