@@ -1,3 +1,8 @@
+/*ABIN THOMAS
+S3 D 01
+QUEUE USING ARRAY*/
+
+
 #include <stdio.h>
 
 int queue[100], n=100, front=-1, rear=-1;
@@ -38,6 +43,48 @@ void printQueue() {
 			printf("%d\n", queue[i]);
 		}
 	}
+	OUTPUT:	Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 112
+
+	Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 12213
+
+	Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 3
+112
+12213
+
+	Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 2
+Deleted element : 112
+
+	Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 3
+12213
+
+	
 }
 int main() {
 	char choice;
